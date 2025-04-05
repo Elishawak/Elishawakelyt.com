@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(pexels-pixabay-33545.jpg);
+    text-align: center;
+  }
+
+  header {
+    background-image: url(pexels-pixabay-33545.jpg);
+    color: white;
+    padding: 20px 0;
+  }
+
+  footer {
+   background-image: url(pexels-pixabay-33545.jpg);
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  main {
+    padding: 20px;
+    margin-bottom: 80px; /* space above footer */
+  }
+
+  .slideshow-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .slides {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .slide img {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+  }

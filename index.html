@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELYT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to ELYT</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="co.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Full-Screen Slideshow -->
+    <div class="slideshow-container">
+        <div class="slide active-slide">
+            <img src="us.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="us2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="us 3.jpg" alt="Slide 3">
+        </div>
+
+    
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+        <div class="dots">
+            <span class="dot active" onclick="setSlide(0)"></span>
+            <span class="dot" onclick="setSlide(1)"></span>
+            <span class="dot" onclick="setSlide(2)"></span>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ELYT. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
